@@ -9,10 +9,9 @@ void printOut(int n)
 {
 	if (n >= 10){
 		printOut(n / 10);
-		cout << endl;
 	}
-		
-	cout << n % 10;
+
+	printf("%d",n%10);
 }
 
 int _tmain(int argc, _TCHAR* argv[])
